@@ -74,3 +74,4 @@ const String successIcon = '${url}success.png';
 const String starInActiveIcon = '${url}star_inactive.png';
 const String userIcon = '${url}user.png';
 const String envelopeIcon = '${url}envelope.png';
+const String cameraIcon = '${url}camera.png';
