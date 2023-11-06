@@ -3,8 +3,10 @@ import 'package:geeta/ui/pages/favorite_page.dart';
 import 'package:geeta/ui/pages/home_page.dart';
 import 'package:geeta/ui/pages/login_page.dart';
 import 'package:geeta/ui/pages/payment_page.dart';
+import 'package:geeta/ui/pages/payment_success_page.dart';
 import 'package:geeta/ui/pages/product_detail_page.dart';
 import 'package:geeta/ui/pages/register_page.dart';
+import 'package:geeta/ui/pages/search_page.dart';
 import 'package:geeta/ui/pages/start_page.dart';
 import 'package:geeta/ui/pages/splash_page.dart';
 import 'package:flutter/material.dart';
@@ -28,9 +30,11 @@ class MyApp extends StatelessWidget {
         '/register': (context) => const RegisterPage(),
         '/home': (context) => const HomePage(),
         '/product-detail': (context) => const ProductDetailPage(),
-        '/cart': (context) => CartPage(),
+        '/cart': (context) => const CartPage(),
         '/favorite': (context) => const FavoritePage(),
         '/payment': (context) => const PaymentPage(),
+        '/payment-success': (context) => const PaymentSuccessPage(),
+        '/search': (context) => const SearchPage(),
       },
     );
   }

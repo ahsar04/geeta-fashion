@@ -9,22 +9,11 @@ class OnBoardingPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: ListView(
-        padding: EdgeInsets.all(30),
+        padding: const EdgeInsets.all(30),
         children: [
           Column(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              // const Row(
-              //   mainAxisAlignment: MainAxisAlignment.start,
-              //   children: [
-              //     Image(
-              //       height: 160,
-              //       image: AssetImage(
-              //         'assets/images/vector_effects_2.png',
-              //       ),
-              //     ),
-              //   ],
-              // ),
               const SizedBox(
                 height: 117,
               ),
@@ -119,18 +108,6 @@ class OnBoardingPage extends StatelessWidget {
                   Navigator.pushNamed(context, '/register');
                 },
               ),
-              // const Spacer(),
-              // const Row(
-              //   mainAxisAlignment: MainAxisAlignment.end,
-              //   children: [
-              //     Image(
-              //       height: 145,
-              //       image: AssetImage(
-              //         'assets/images/vector_effects_1.png',
-              //       ),
-              //     ),
-              //   ],
-              // ),
             ],
           ),
         ],

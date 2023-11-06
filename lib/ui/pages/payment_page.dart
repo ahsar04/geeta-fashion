@@ -17,10 +17,11 @@ class PaymentPage extends StatelessWidget {
             fontSize: 16,
           ),
         ),
+        centerTitle: true,
       ),
       body: SingleChildScrollView(
         child: Container(
-          margin: const EdgeInsets.fromLTRB(30, 0, 30, 0),
+          margin: const EdgeInsets.fromLTRB(30, 0, 30, 20),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
@@ -67,12 +68,10 @@ class PaymentPage extends StatelessWidget {
                       style: whiteTextStyle.copyWith(
                         fontWeight: bold,
                         fontSize: 25,
-                        letterSpacing: 3,
+                        letterSpacing: 2,
                       ),
                     ),
-                    const SizedBox(
-                      height: 51,
-                    ),
+                    const Spacer(),
                     Row(
                       children: [
                         Text(
@@ -131,7 +130,7 @@ class PaymentPage extends StatelessWidget {
               const Row(
                 children: [
                   SizedBox(
-                    width: 166,
+                    width: 150,
                     child: CustomFormField(
                       title: 'Expiry date',
                       text: '07/21',
@@ -142,7 +141,7 @@ class PaymentPage extends StatelessWidget {
                   ),
                   Spacer(),
                   SizedBox(
-                    width: 166,
+                    width: 150,
                     child: CustomFormField(
                       title: 'CVC',
                       text: '474',
@@ -158,7 +157,9 @@ class PaymentPage extends StatelessWidget {
               ),
               CustomTextButton(
                 title: 'Use This Card',
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.pushNamed(context, '/payment-success');
+                },
               )
             ],
           ),

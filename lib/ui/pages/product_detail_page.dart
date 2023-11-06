@@ -21,6 +21,7 @@ class ProductDetailPage extends StatelessWidget {
               icon: const Icon(Icons.favorite_border_outlined),
             ),
           ),
+          Text('coba',style: TextStyle(color: blackColor,),),
           const SizedBox(
             width: 15,
           )
@@ -257,7 +258,7 @@ class ProductDetailPage extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Container(
-                                margin: EdgeInsets.only(right: 10),
+                                margin: const EdgeInsets.only(right: 10),
                                 height: 48,
                                 width: 48,
                                 child: TextButton(
@@ -281,13 +282,13 @@ class ProductDetailPage extends StatelessWidget {
                                 ),
                               ),
                               Container(
-                                margin: EdgeInsets.only(right: 10),
+                                margin: const EdgeInsets.only(right: 10),
                                 height: 48,
                                 width: 48,
                                 child: TextButton(
                                   style: ButtonStyle(
                                     backgroundColor:
-                                        MaterialStatePropertyAll(bgGreyColor),
+                                        MaterialStatePropertyAll(bgWhiteColor),
                                     shape: MaterialStateProperty.all(
                                       RoundedRectangleBorder(
                                         borderRadius: BorderRadius.circular(6),
@@ -305,13 +306,13 @@ class ProductDetailPage extends StatelessWidget {
                                 ),
                               ),
                               Container(
-                                margin: EdgeInsets.only(right: 10),
+                                margin: const EdgeInsets.only(right: 10),
                                 height: 48,
                                 width: 48,
                                 child: TextButton(
                                   style: ButtonStyle(
                                     backgroundColor:
-                                        MaterialStatePropertyAll(bgGreyColor),
+                                        MaterialStatePropertyAll(bgWhiteColor),
                                     shape: MaterialStateProperty.all(
                                       RoundedRectangleBorder(
                                         borderRadius: BorderRadius.circular(6),
@@ -329,13 +330,13 @@ class ProductDetailPage extends StatelessWidget {
                                 ),
                               ),
                               Container(
-                                margin: EdgeInsets.only(right: 10),
+                                margin: const EdgeInsets.only(right: 10),
                                 height: 48,
                                 width: 48,
                                 child: TextButton(
                                   style: ButtonStyle(
                                     backgroundColor:
-                                        MaterialStatePropertyAll(bgGreyColor),
+                                        MaterialStatePropertyAll(bgWhiteColor),
                                     shape: MaterialStateProperty.all(
                                       RoundedRectangleBorder(
                                         borderRadius: BorderRadius.circular(6),
@@ -358,7 +359,7 @@ class ProductDetailPage extends StatelessWidget {
                                 child: TextButton(
                                   style: ButtonStyle(
                                     backgroundColor:
-                                        MaterialStatePropertyAll(bgGreyColor),
+                                        MaterialStatePropertyAll(bgWhiteColor),
                                     shape: MaterialStateProperty.all(
                                       RoundedRectangleBorder(
                                         borderRadius: BorderRadius.circular(6),

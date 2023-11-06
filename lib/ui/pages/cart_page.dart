@@ -3,6 +3,8 @@ import 'package:geeta/shared/theme.dart';
 import 'package:geeta/ui/widgets/button.dart';
 
 class CartPage extends StatelessWidget {
+  const CartPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -14,6 +16,7 @@ class CartPage extends StatelessWidget {
               fontSize: 16,
             ),
           ),
+          centerTitle: true,
         ),
         body: Padding(
           padding: const EdgeInsets.fromLTRB(30, 0, 30, 30),
@@ -21,7 +24,7 @@ class CartPage extends StatelessWidget {
             children: [
               Container(
                 margin: const EdgeInsets.only(bottom: 30),
-                height: MediaQuery.of(context).size.height - 190,
+                height: MediaQuery.of(context).size.height - 195.1,
                 child: ListView.builder(
                     itemCount: 10,
                     itemBuilder: (BuildContext context, int index) {

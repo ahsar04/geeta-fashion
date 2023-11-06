@@ -16,6 +16,7 @@ class FavoritePage extends StatelessWidget {
             fontSize: 16,
           ),
         ),
+        centerTitle: true,
       ),
       body: Padding(
         padding: const EdgeInsets.fromLTRB(30, 0, 30, 30),
@@ -23,7 +24,7 @@ class FavoritePage extends StatelessWidget {
           children: [
             Container(
               margin: const EdgeInsets.only(bottom: 30),
-              height: MediaQuery.of(context).size.height - 190,
+              height: MediaQuery.of(context).size.height - 195.1,
               child: ListView.builder(
                   itemCount: 10,
                   itemBuilder: (BuildContext context, int index) {
@@ -81,7 +82,7 @@ class FavoritePage extends StatelessWidget {
                                             fontSize: 16, fontWeight: black),
                                         softWrap: true,
                                       ),
-                                      Spacer(),
+                                      const Spacer(),
                                       IconButton(
                                         onPressed: () {},
                                         icon: const Icon(

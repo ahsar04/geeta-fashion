@@ -16,7 +16,7 @@ class _LoginPageState extends State<LoginPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: ListView(
-        padding: EdgeInsets.only(bottom: 45),
+        padding: const EdgeInsets.only(bottom: 45),
         children: [
           Container(
             width: MediaQuery.of(context).size.width,

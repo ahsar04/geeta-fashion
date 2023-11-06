@@ -1,6 +1,5 @@
 import 'package:geeta/shared/theme.dart';
 import 'package:flutter/material.dart';
-import 'package:geeta/ui/widgets/button.dart';
 
 class StartPage extends StatelessWidget {
   const StartPage({super.key});
